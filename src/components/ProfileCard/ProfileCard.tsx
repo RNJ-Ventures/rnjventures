@@ -27,7 +27,7 @@ const ProfileCard = (props: ProfileCardProps) => {
           <p className="Description">{profile.bio}</p>
         </div>
       </div>
-      <div className="ColorPanel" />
+      <div className="SpacePanel" />
     </div>
   );
 };

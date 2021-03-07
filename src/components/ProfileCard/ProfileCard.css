@@ -30,6 +30,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background: linear-gradient(45deg, var(--color-primary) 20%, var(--color-secondary) 60%, var(--color-tertiary));
 }
 
 .TextContainer {
@@ -46,6 +47,7 @@
     -webkit-flex-shrink: 0;
     width: fit-content;
     max-width: 37.5rem;
+
 }
 
 .Name {
@@ -82,11 +84,10 @@ h1.Name:after {
     vertical-align: baseline;
 }
 
-.ColorPanel {
-    background: linear-gradient(45deg, var(--color-primary) 20%, var(--color-secondary) 60%, var(--color-tertiary));
+.SpacePanel {
     width: 100%;
 }
 
-.Profile:nth-child(even) .ColorPanel {
+.Profile:nth-child(even) .ContentContainer {
     background: linear-gradient(45deg, var(--color-tertiary) 20%, var(--color-secondary) 60%, var(--color-primary));
 }
