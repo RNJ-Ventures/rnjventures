@@ -1,0 +1,19 @@
+.Mission {
+    height: calc(100vh - var(--headerHeight));
+    background-color: #ddd1c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: min(200px, 20%);
+    overflow: hidden;
+    flex-wrap: wrap;
+    direction: ltr;
+    align-items: flex-end;
+}
+
+.Mission h2 {
+    font-size: x-large;
+    z-index: 1;
+    max-width: calc(50% - 200px);
+    text-align: end;
+}
