@@ -1,17 +1,19 @@
 .Hero {
-    height: min(calc(100vh - var(--headerHeight)), 1152px);
+    height: calc(100vh - var(--headerHeight));
     background-color: #ddd1c7;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    padding-left: 200px;
+    padding-left: min(200px, 20%);
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .Hero h2 {
     font-size: xx-large;
     z-index: 1;
+    min-width: 800px;
 }
 
 .Hero .HeroBackground {
