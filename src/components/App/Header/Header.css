@@ -13,7 +13,7 @@
 }
 
 .Header p {
-    color: #c16200;
+    color: var(--orange);
     font-size: x-large;
 }
 
@@ -42,7 +42,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #c16200;
+    background-color: var(--orange);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -55,14 +55,14 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #c16200;
+    background-color: var(--orange);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
 }
 
 .Header .NavMenu a:hover {
-    color: #c16200;
+    color: var(--orange);
 }
 
 .Header .NavMenu a:hover::before {
