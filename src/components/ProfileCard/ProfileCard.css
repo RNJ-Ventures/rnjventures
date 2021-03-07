@@ -9,8 +9,6 @@
     direction: rtl;
 }
 
-
-
 .Profile {
     display: flex;
     width: 100%;
@@ -30,6 +28,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -44,11 +43,9 @@
     flex-direction: column;
     -webkit-justify-content: center;
     justify-content: center;
-    -webkit-flex-grow: 0;
-    flex-grow: 0;
     -webkit-flex-shrink: 0;
-    width: 37.5rem;
-    flex-shrink: 0;
+    width: fit-content;
+    max-width: 37.5rem;
 }
 
 .Name {
@@ -65,7 +62,7 @@ h1.Name:after {
     bottom: -1.325rem;
 }
 
-h1.Name:after, h2.Name:after, h3.Name:after {
+h1.Name:after {
     content: "";
     position: absolute;
     left: 0;
@@ -86,11 +83,10 @@ h1.Name:after, h2.Name:after, h3.Name:after {
 }
 
 .ColorPanel {
-    background: linear-gradient(45deg, var(--color-primary) 20%,  var(--color-secondary) 60%,  var(--color-tertiary));
+    background: linear-gradient(45deg, var(--color-primary) 20%, var(--color-secondary) 60%, var(--color-tertiary));
     width: 100%;
 }
 
-
-.Profile:nth-child(even) .ColorPanel{
+.Profile:nth-child(even) .ColorPanel {
     background: linear-gradient(45deg, var(--color-tertiary) 20%, var(--color-secondary) 60%, var(--color-primary));
 }
