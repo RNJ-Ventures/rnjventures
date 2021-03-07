@@ -4,7 +4,12 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="Header">
-      <p>RNJ Ventures</p>
+      <div className="Logo">
+        <img
+          src={`${process.env.PUBLIC_URL}/images/rnj.png`}
+          alt="rnj ventures"
+        />
+      </div>
       <div className="NavMenu">
         <a href="#mission">Mission</a>
         <a href="#team">Team</a>
