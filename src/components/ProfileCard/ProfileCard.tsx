@@ -16,15 +16,18 @@ const ProfileCard = (props: ProfileCardProps) => {
   const { profile } = props;
   return (
     <div className="Profile">
-      <img
-        src={process.env.PUBLIC_URL + profile.picUrl}
-        className="Image"
-        alt={profile.name}
-      />
       <div className="ContentContainer">
-        <h1 className="Name">{profile.name}</h1>
-        <p className="Description">{profile.bio}</p>
+        <img
+          src={process.env.PUBLIC_URL + profile.picUrl}
+          className="Image"
+          alt={profile.name}
+        />
+        <div className="TextContainer">
+          <h1 className="Name">{profile.name}</h1>
+          <p className="Description">{profile.bio}</p>
+        </div>
       </div>
+      <div className="ColorPanel" />
     </div>
   );
 };

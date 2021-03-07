@@ -26,7 +26,11 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-.ContentContainer{
+.ContentContainer {
+  width: 100%;
+  display: flex;
+}
+.TextContainer{
   padding: 3.5rem 3.5rem 2rem 3.5rem;
   display: -moz-flex;
   display: -webkit-flex;
@@ -75,4 +79,9 @@ h1.Name:after, h2.Name:after, h3.Name:after {
   color: rgba(255, 255, 255, 0.875);
   font-weight: 400;
   vertical-align: baseline;
+}
+
+.ColorPanel{
+  background: linear-gradient(45deg, #ffb600 20%, #f5581b 60%, #ffe4b4);
+  width: 100%;
 }
