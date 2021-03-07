@@ -1,9 +1,16 @@
 .Profiles {
     display: flex;
+    background: black;
 }
 
 .Profile {
     display: flex;
+}
+
+.Profile:hover {
+    color: black;
+    background-color: black;
+    opacity: 0.6;
 }
 
 .Image {
@@ -14,6 +21,3 @@
     overflow: hidden;
 }
 
-.Image :hover{
-
-}
