@@ -10,6 +10,7 @@
   left: 0px;
   right: 0px;
   background-color: white;
+  z-index: 100;
 }
 
 .Logo {

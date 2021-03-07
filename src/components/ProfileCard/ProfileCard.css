@@ -1,100 +1,110 @@
 .Profiles {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .Profile:nth-child(even) {
-    direction: rtl;
+  direction: rtl;
 }
 
 .Profile {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .Image {
-    width: 300px;
-    height: 300px;
-    display: block;
-    border-radius: 4px;
-    object-fit: cover;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  width: 300px;
+  height: 300px;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .ContentContainer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 3.5rem 3.5rem 2rem 3.5rem;
-    justify-content: space-evenly;
-    background: linear-gradient(45deg, var(--color-primary) 20%, var(--color-secondary) 60%, var(--color-tertiary));
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3.5rem 3.5rem 2rem 3.5rem;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    45deg,
+    var(--color-primary) 20%,
+    var(--color-secondary) 60%,
+    var(--color-tertiary)
+  );
 }
 
 .TextContainer {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-shrink: 0;
-    width: fit-content;
-    max-width: 37.5rem;
-    padding-top: 3.5rem;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  width: fit-content;
+  max-width: 37.5rem;
+  padding-top: 3.5rem;
 }
 
 .Name {
-    position: relative;
-    margin: 0 0 2.625rem 0;
-    font-size: 3rem;
-    line-height: 1.2;
-    color: rgba(255, 255, 255, 0.875);
-    font-weight: 700;
-    letter-spacing: -0.05em;
+  position: relative;
+  margin: 0 0 2.625rem 0;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.875);
+  font-weight: 700;
+  letter-spacing: -0.05em;
 }
 
 h1.Name:after {
-    bottom: -1.325rem;
-    width: 3.5rem;
-    height: 0.1rem;
-    background-color: rgba(255, 255, 255, 0.25);
-    content: "";
-    position: absolute;
-    left: 0;
+  bottom: -1.325rem;
+  width: 3.5rem;
+  height: 0.1rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  content: "";
+  position: absolute;
+  left: 0;
 }
 
 .Profile:nth-child(even) h1.Name:after {
-    right: 0;
+  right: 0;
 }
 
 .Description {
-    margin: 0 0 1.5rem 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    color: rgba(255, 255, 255, 0.875);
-    font-weight: 400;
-    vertical-align: baseline;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  color: rgba(255, 255, 255, 0.875);
+  font-weight: 400;
+  vertical-align: baseline;
 }
 
 .SpacePanel {
-    width: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
-    .SpacePanel {
-        display: none;
-    }
+  .SpacePanel {
+    display: none;
+  }
 }
 
 .Profile:nth-child(even) .ContentContainer {
-    background: linear-gradient(45deg, var(--color-tertiary) 20%, var(--color-secondary) 60%, var(--color-primary));
+  background: linear-gradient(
+    45deg,
+    var(--color-tertiary) 20%,
+    var(--color-secondary) 60%,
+    var(--color-primary)
+  );
 }
