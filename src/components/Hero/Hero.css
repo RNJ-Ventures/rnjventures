@@ -16,13 +16,11 @@
 
 .Hero .HeroBackground {
     position: absolute;
-    top: 0;
     right: 0;
     overflow: hidden;
     background-image: radial-gradient(#fafafa 20%, transparent 20%),
     radial-gradient(#fafafa 20%, transparent 20%);
-    background-position: 0 0, 20px 20px;
     background-size: 40px 40px;
     width: 50%;
-    height: 100%;
+    height: inherit;
 }
