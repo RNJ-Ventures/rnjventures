@@ -1,15 +1,13 @@
 .Profiles {
     display: flex;
-    background: black;
 }
 
 .Profile {
     display: flex;
+    flex-direction: column;
 }
 
 .Profile:hover {
-    color: black;
-    background-color: black;
     opacity: 0.6;
 }
 
