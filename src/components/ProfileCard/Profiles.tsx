@@ -27,8 +27,8 @@ const PROFILES: Profile[] = [
 ];
 const Profiles = () => (
   <div className="Profiles">
-    {PROFILES.map((profile, i) => (
-      <ProfileCard profile={profile} key={i} />
+    {PROFILES.map((profile) => (
+      <ProfileCard profile={profile} key={profile.name} />
     ))}
   </div>
 );
