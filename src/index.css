@@ -17,3 +17,7 @@
 :root {
   --orange: #c16200;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}

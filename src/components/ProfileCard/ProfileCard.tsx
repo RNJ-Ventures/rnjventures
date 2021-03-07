@@ -21,8 +21,10 @@ const ProfileCard = (props: ProfileCardProps) => {
         className="Image"
         alt={profile.name}
       />
-      <p className="Name">{profile.name}</p>
-      <p className="Description">{profile.bio}</p>
+      <div className="ContentContainer">
+        <h1 className="Name">{profile.name}</h1>
+        <p className="Description">{profile.bio}</p>
+      </div>
     </div>
   );
 };
