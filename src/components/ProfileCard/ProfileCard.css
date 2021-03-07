@@ -29,12 +29,12 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    padding: 3.5rem 3.5rem 2rem 3.5rem;
     justify-content: space-evenly;
     background: linear-gradient(45deg, var(--color-primary) 20%, var(--color-secondary) 60%, var(--color-tertiary));
 }
 
 .TextContainer {
-    padding: 3.5rem 3.5rem 2rem 3.5rem;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -47,6 +47,7 @@
     -webkit-flex-shrink: 0;
     width: fit-content;
     max-width: 37.5rem;
+    padding-top: 3.5rem;
 }
 
 .Name {
@@ -86,6 +87,12 @@ h1.Name:after {
 
 .SpacePanel {
     width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .SpacePanel {
+        display: none;
+    }
 }
 
 .Profile:nth-child(even) .ContentContainer {
