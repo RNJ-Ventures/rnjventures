@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <div className="Contact">
       <span>
-        Phone: <a href={`tel:${PHONE}`}>{PHONE}</a>
+        <a href={`mailto:${EMAIL}`}>Email: {EMAIL}</a>
       </span>
       <span>
-        Email: <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+        <a href={`tel:${PHONE}`}>Phone: {PHONE}</a>
       </span>
     </div>
   );
