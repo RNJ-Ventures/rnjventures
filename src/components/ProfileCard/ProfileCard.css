@@ -62,7 +62,7 @@
   line-height: 1.2;
   color: rgba(255, 255, 255, 0.875);
   font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
 }
 
 h1.Name:after {
@@ -77,6 +77,11 @@ h1.Name:after {
 
 .Profile:nth-child(even) h1.Name:after {
   right: 0;
+}
+
+.Name span{
+  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .Description {
