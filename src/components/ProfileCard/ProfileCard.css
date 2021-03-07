@@ -1,0 +1,13 @@
+.Profiles {
+    display: flex;
+}
+
+.Profile {
+    display: flex;
+}
+
+.Image{
+  width: 100%;
+  height: auto;
+  display: block;
+}
