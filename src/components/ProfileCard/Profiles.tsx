@@ -6,7 +6,7 @@ const PROFILES: Profile[] = [
   {
     name: "JonLuca DeCaro",
     bio:
-      "JonLuca is a seasoned software engineer and security expert who grew up on a US military base in Italy. After moving to the United States in 2014, JonLuca worked at Pinterest, Google, and Apple in growth focused roles. Most recently, at Pinterest, he directly reported to the VP of growth, and was responsible for growing Pinterest’s MAU by 14M. In his free time, JonLuca enjoys writing and doing growth consulting.",
+      "JonLuca is a seasoned software engineer and security expert who grew up on a US military base in Italy. After moving to the United States in 2014, JonLuca worked at Pinterest, Google, and Apple in technical roles. JonLuca has a strong history in user growth and scaling consumer tech companies. In his free time, JonLuca enjoys writing and doing growth consulting.",
     picUrl: "/images/jonluca.jpg",
     email: "jonluca@rnjventures.com",
   },
