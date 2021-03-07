@@ -13,7 +13,7 @@
 .Hero h2 {
     font-size: xx-large;
     z-index: 1;
-    min-width: 800px;
+    max-width: calc(50% - 200px);
 }
 
 .Hero .HeroBackground {
