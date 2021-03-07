@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rnjventures/static/css/main.e374bd5f.chunk.css",
+    "main.js": "/rnjventures/static/js/main.57878e82.chunk.js",
+    "main.js.map": "/rnjventures/static/js/main.57878e82.chunk.js.map",
+    "runtime-main.js": "/rnjventures/static/js/runtime-main.33b9aec8.js",
+    "runtime-main.js.map": "/rnjventures/static/js/runtime-main.33b9aec8.js.map",
+    "static/js/2.6a2221ac.chunk.js": "/rnjventures/static/js/2.6a2221ac.chunk.js",
+    "static/js/2.6a2221ac.chunk.js.map": "/rnjventures/static/js/2.6a2221ac.chunk.js.map",
+    "index.html": "/rnjventures/index.html",
+    "static/css/main.e374bd5f.chunk.css.map": "/rnjventures/static/css/main.e374bd5f.chunk.css.map",
+    "static/js/2.6a2221ac.chunk.js.LICENSE.txt": "/rnjventures/static/js/2.6a2221ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33b9aec8.js",
+    "static/js/2.6a2221ac.chunk.js",
+    "static/css/main.e374bd5f.chunk.css",
+    "static/js/main.57878e82.chunk.js"
+  ]
+}
