@@ -1,5 +1,4 @@
 .Profiles {
-    padding-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -87,11 +86,11 @@ h1.Name:after, h2.Name:after, h3.Name:after {
 }
 
 .ColorPanel {
-    background: linear-gradient(45deg, #ffb600 20%, #f5581b 60%, #ffe4b4);
+    background: linear-gradient(45deg, var(--color-primary) 20%,  var(--color-secondary) 60%,  var(--color-tertiary));
     width: 100%;
 }
 
 
 .Profile:nth-child(even) .ColorPanel{
-    background: linear-gradient(45deg, #ffe4b4 20%, #f5581b 60%, #ffb600);
+    background: linear-gradient(45deg, var(--color-tertiary) 20%, var(--color-secondary) 60%, var(--color-primary));
 }

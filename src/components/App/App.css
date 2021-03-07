@@ -1,5 +1,5 @@
 html {
-    background: #32373b;
+    background: var(--color-background);
 }
 
 .Body {
@@ -8,5 +8,5 @@ html {
 }
 
 .App .Body {
-    margin-top: 80px;
+    margin-top: 100px;
 }
