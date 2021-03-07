@@ -18,7 +18,7 @@ const ProfileCard = (props: ProfileCardProps) => {
   const { bio, firstName, lastName, picUrl } = profile;
   const name = firstName + lastName;
   return (
-    <div className="Profile">
+    <div className="Profile" id="team">
       <div className="ContentContainer">
         <img
           src={process.env.PUBLIC_URL + picUrl}

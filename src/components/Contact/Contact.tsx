@@ -5,7 +5,7 @@ const PHONE = "213-444-9020";
 const EMAIL = "team@rnjventures.com";
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <span>
         <a href={`mailto:${EMAIL}`}>Email: {EMAIL}</a>
       </span>
