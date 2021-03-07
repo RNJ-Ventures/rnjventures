@@ -1,15 +1,15 @@
 .Header {
-    display: flex;
-    height: 100px;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 32px;
-    padding-right: 32px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: white;
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
 }
 
 .Logo {
@@ -24,59 +24,58 @@
 }
 
 .Header p {
-    color: var(--orange);
-    font-size: x-large;
+  color: var(--orange);
+  font-size: x-large;
 }
 
 .Header .NavMenu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  gap: 20px;
 }
 
 .Header .NavMenu a {
-    font-weight: 500;
-    font-size: large;
-    text-decoration: none;
-    color: black;
-    transition: color 0.2s linear;
-    position: relative;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s linear;
+  position: relative;
 }
 
 /* Pseudo-element for animated underline */
 .Header .NavMenu a::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--orange);
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--orange);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .Header .NavMenu a::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--orange);
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--orange);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .Header .NavMenu a:hover {
-    color: var(--orange);
+  color: var(--orange);
 }
 
 .Header .NavMenu a:hover::before {
-    visibility: visible;
-    transform: scaleX(1);
+  visibility: visible;
+  transform: scaleX(1);
 }

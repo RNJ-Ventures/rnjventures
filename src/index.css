@@ -1,10 +1,15 @@
 @font-face {
   font-family: "RNJFont";
-  src: url("./fonts/Heavitas.ttf") format("truetype")
+  src: url("./fonts/Heavitas.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RNJLogoFont";
+  src: url("./fonts/medium.otf") format("opentype");
 }
 
 * {
-  font-family: "RNJFont";
+  font-family: "RNJLogoFont";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
