@@ -1,8 +1,12 @@
 html {
-  background: #32373b;
+    background: #32373b;
 }
 
+.Body {
+    width: 100vw;
+    overflow: hidden;
+}
 
 .App .Body {
-  margin-top: 80px;
+    margin-top: 80px;
 }

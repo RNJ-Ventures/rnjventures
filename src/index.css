@@ -1,23 +1,27 @@
 @font-face {
-  font-family: "RNJFont";
-  src: url("./fonts/Heavitas.ttf") format("truetype");
+    font-family: "RNJFont";
+    src: url("./fonts/Heavitas.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "RNJLogoFont";
-  src: url("./fonts/medium.otf") format("opentype");
+    font-family: "RNJLogoFont";
+    src: url("./fonts/medium.otf") format("opentype");
 }
 
 * {
-  font-family: "RNJLogoFont";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "RNJLogoFont";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
-  --orange: #c16200;
+    --orange: #c16200;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html, body {
+    overflow: hidden;
 }
