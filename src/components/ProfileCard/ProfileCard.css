@@ -47,7 +47,6 @@
     -webkit-flex-shrink: 0;
     width: fit-content;
     max-width: 37.5rem;
-
 }
 
 .Name {
@@ -62,15 +61,16 @@
 
 h1.Name:after {
     bottom: -1.325rem;
-}
-
-h1.Name:after {
-    content: "";
-    position: absolute;
-    left: 0;
     width: 3.5rem;
     height: 0.1rem;
     background-color: rgba(255, 255, 255, 0.25);
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.Profile:nth-child(even) h1.Name:after {
+    right: 0;
 }
 
 .Description {
