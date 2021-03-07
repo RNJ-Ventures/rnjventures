@@ -1,12 +1,12 @@
 html {
-    background: var(--color-background);
+  background: var(--color-background);
 }
 
 .Body {
-    width: 100vw;
-    overflow: hidden;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .App .Body {
-    margin-top: 100px;
+  margin-top: var(--headerHeight);
 }
