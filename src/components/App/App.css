@@ -7,6 +7,10 @@ html {
   overflow: hidden;
 }
 
+.Body div {
+  scroll-margin-top: var(--headerHeight);
+}
+
 .App .Body {
   margin-top: var(--headerHeight);
 }
