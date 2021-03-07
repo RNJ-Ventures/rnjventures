@@ -1,21 +1,22 @@
 .Profiles {
-    display: flex;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: auto;
 }
 
 .Profile {
-    display: flex;
-    flex-direction: column;
-}
-
-.Profile:hover {
-    opacity: 0.6;
+  display: flex;
 }
 
 .Image {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    overflow: hidden;
+  width: 300px;
+  height: 300px;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
-

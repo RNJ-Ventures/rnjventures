@@ -4,7 +4,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="Header">
-      <text>RNJ Ventures</text>
+      <p>RNJ Ventures</p>
       <div className="NavMenu">
         <a href="#mission">Mission</a>
         <a href="#team">Team</a>
