@@ -1,30 +1,29 @@
-.Contact{
-    min-height: 350px;
-    background: var(--color-background);
-    display: flex;
-    flex-direction: column;
-    padding: 3.5rem 3.5rem 2rem 3.5rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.Contact {
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.Contact span{
-    position: relative;
-    margin: 0 0 2.625rem 0;
-    font-size: 2.2rem;
-    color: rgba(255, 255, 255, 0.875);
-    font-weight: 700;
+.Contact h2 {
+  color: white;
+  margin: 0 3rem;
 }
 
-@media screen and (max-width: 1000px) {
-    .Contact span{
-        font-size: 1.4rem;
-    }
+.Contact span {
+  margin: 1.5rem 3rem;
+  padding: 1rem 3rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-
-.Contact a{
-    color: inherit;
-    text-decoration: none;
+.Contact a {
+  color: inherit;
+  font-family: "RNJSerif";
+  font-size: xx-large;
+  text-decoration: none;
 }

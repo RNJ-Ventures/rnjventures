@@ -1,15 +1,24 @@
 @font-face {
-  font-family: "RNJFont";
-  src: url("./fonts/Heavitas.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "RNJLogoFont";
+  font-family: "RNJSansSerif";
   src: url("./fonts/medium.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "RNJSerif";
+  src: url("./fonts/DMSerifDisplay.ttf") format("truetype");
+}
+
 * {
-  font-family: "RNJLogoFont";
+  font-family: "RNJSansSerif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "RNJSerif";
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

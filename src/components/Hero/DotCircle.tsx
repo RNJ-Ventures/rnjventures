@@ -8,9 +8,15 @@ type Props = {
   fill: string;
 };
 
-export default ({ width, height, space, radius, fill }: Props) => {
-  const viewWidth = width * radius * 2 + (width - 2) * (space - radius * 2);
-  const viewHeight = height * radius * 2 + (height - 2) * (space - radius * 2);
+export default ({
+  width = 17,
+  height = 17,
+  space = 26,
+  radius = 6,
+  fill = "#000",
+}: Props) => {
+  const viewWidth = width * radius * 2 + (width - 1) * (space - radius * 2);
+  const viewHeight = height * radius * 2 + (height - 1) * (space - radius * 2);
   const dots = [];
 
   for (let indexWidth = 0; indexWidth < width; indexWidth += 1) {
@@ -20,7 +26,7 @@ export default ({ width, height, space, radius, fill }: Props) => {
           key={`${indexWidth}-${indexHeight}`}
           cx={radius + indexWidth * space}
           cy={radius + indexHeight * space}
-          r={radius * (1 + indexWidth / 25)}
+          r={radius}
         />
       );
     }

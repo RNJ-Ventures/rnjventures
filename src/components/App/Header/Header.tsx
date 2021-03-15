@@ -6,7 +6,7 @@ export default function Header() {
     <div className="Header">
       <div className="Logo">
         <img
-          src={`${process.env.PUBLIC_URL}/images/rnj.png`}
+          src={`${process.env.PUBLIC_URL}/images/rnj_logo.svg`}
           alt="rnj ventures"
         />
       </div>

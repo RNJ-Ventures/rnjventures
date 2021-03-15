@@ -6,11 +6,9 @@ const EMAIL = "team@rnjventures.com";
 const Contact = () => {
   return (
     <div className="Contact" id="contact">
+      <h2>SaaS company or investor? We want to talk.</h2>
       <span>
-        <a href={`mailto:${EMAIL}`}>Email: {EMAIL}</a>
-      </span>
-      <span>
-        <a href={`tel:${PHONE}`}>Phone: {PHONE}</a>
+        <a href={`mailto:${EMAIL}`}>Contact Us</a>
       </span>
     </div>
   );
