@@ -4,7 +4,6 @@
   flex-direction: row;
   align-items: center;
   padding-left: 32px;
-  padding-right: 32px;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -35,11 +34,11 @@
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  gap: 30px;
   font-size: large;
 }
 
 .Header .NavMenu a {
+  margin-right: 30px;
   text-decoration: none;
   color: black;
   transition: color 0.2s linear;
@@ -88,7 +87,9 @@
     padding-right: 12px;
   }
   .Header .NavMenu {
-    gap: 10px;
     font-size: small;
+  }
+  .Header .NavMenu a {
+    margin-right: 12px;
   }
 }

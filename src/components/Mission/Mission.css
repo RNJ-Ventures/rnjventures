@@ -16,6 +16,7 @@
   font-size: xxx-large;
   z-index: 1;
   max-width: 50%;
+  margin-top: 10rem;
 }
 
 .Mission h2 {
@@ -27,11 +28,13 @@
 
 @media screen and (max-width: 1000px) {
   .Mission {
-    padding: 10%;
+    /* padding: 10%; */
     text-align: start;
     align-items: flex-start;
+    padding-right: 5%;
+    padding-left: 5%;
   }
   .Mission h2 {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
