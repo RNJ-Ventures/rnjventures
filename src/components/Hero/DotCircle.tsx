@@ -8,13 +8,7 @@ type Props = {
   fill: string;
 };
 
-export default ({
-  width = 17,
-  height = 17,
-  space = 26,
-  radius = 6,
-  fill = "#000",
-}: Props) => {
+export default ({ width, height, space, radius, fill }: Props) => {
   const viewWidth = width * radius * 2 + (width - 1) * (space - radius * 2);
   const viewHeight = height * radius * 2 + (height - 1) * (space - radius * 2);
   const dots = [];

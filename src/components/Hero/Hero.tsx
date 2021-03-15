@@ -19,7 +19,7 @@ export default function Hero() {
         alt="rnj ventures logo"
       />
       <div className="DotWrapper">
-        <DotCircle />
+        <DotCircle width={17} height={17} space={26} radius={6} fill="#000" />
       </div>
     </div>
   );
