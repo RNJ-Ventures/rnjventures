@@ -45,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://RivMist.github.io/rnjventures",
+  "homepage": "https://www.rnjventures.com",
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
