@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/rnjventures/static/css/main.826ae3a4.chunk.css",
-    "main.js": "/rnjventures/static/js/main.1f041ab0.chunk.js",
-    "main.js.map": "/rnjventures/static/js/main.1f041ab0.chunk.js.map",
+    "main.css": "/rnjventures/static/css/main.8fe254b2.chunk.css",
+    "main.js": "/rnjventures/static/js/main.067f99b1.chunk.js",
+    "main.js.map": "/rnjventures/static/js/main.067f99b1.chunk.js.map",
     "runtime-main.js": "/rnjventures/static/js/runtime-main.33b9aec8.js",
     "runtime-main.js.map": "/rnjventures/static/js/runtime-main.33b9aec8.js.map",
     "static/js/2.08cc0ffe.chunk.js": "/rnjventures/static/js/2.08cc0ffe.chunk.js",
     "static/js/2.08cc0ffe.chunk.js.map": "/rnjventures/static/js/2.08cc0ffe.chunk.js.map",
     "index.html": "/rnjventures/index.html",
-    "static/css/main.826ae3a4.chunk.css.map": "/rnjventures/static/css/main.826ae3a4.chunk.css.map",
+    "static/css/main.8fe254b2.chunk.css.map": "/rnjventures/static/css/main.8fe254b2.chunk.css.map",
     "static/js/2.08cc0ffe.chunk.js.LICENSE.txt": "/rnjventures/static/js/2.08cc0ffe.chunk.js.LICENSE.txt",
     "static/media/index.css": "/rnjventures/static/media/medium.81601921.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.33b9aec8.js",
     "static/js/2.08cc0ffe.chunk.js",
-    "static/css/main.826ae3a4.chunk.css",
-    "static/js/main.1f041ab0.chunk.js"
+    "static/css/main.8fe254b2.chunk.css",
+    "static/js/main.067f99b1.chunk.js"
   ]
 }
