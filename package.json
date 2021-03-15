@@ -35,7 +35,7 @@
   },
   "browserslist": {
     "production": [
-      "not dead",
+      "defaults",
       "not op_mini all"
     ],
     "development": [
